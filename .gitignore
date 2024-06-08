@@ -28,7 +28,12 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
-prisma
+
+# Prisma database
+/prisma/dev.db
+
+# Ignore Prisma Studio files
+.prisma/
 
 # vercel
 .vercel
